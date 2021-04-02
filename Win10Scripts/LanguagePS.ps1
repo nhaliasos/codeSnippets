@@ -1,7 +1,8 @@
 
 Write-Host "Hello my script"
 
-<#
+# if i use <# and close with #> then it comments blocks of text
+
 $LanguageList=Get-WinUserLAnguageList
 $LanguageList.Add("el-GR")
 Set-WinUserLanguageList -Languagelist $LanguageList
@@ -13,4 +14,4 @@ if ($Host.Name -eq "ConsoleHost")
     $Host.UI.RawUI.FlushInputBuffer()   # Make sure buffered input doesn't "press a key" and skip the ReadKey().
     $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyUp") > $null
 }
-#>
+
