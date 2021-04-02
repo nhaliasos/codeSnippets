@@ -1,2 +1,2 @@
 # codeSnippets
-various codes form scripts and langauges
+various codes from scripts and languages
